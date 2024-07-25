@@ -1,0 +1,28 @@
+function Fact() {
+    document.getElementById("information").innerHTML = "Fun Facts about Art <br>1. Painting the Mona Lisa’s lips took Leonardo da Vinci 12 years! Only the lips!<br>2.Roman statues were made with detachable heads so that one head could be removed and replaced by another.<br>3.Imagination and critical thinking are developed through art.<br>4.In 1565, the first pencil was invented in England.<br>5.Before he learned to walk, Picasso could draw. The first word he spoke was the Spanish word for pencil.<br>6.When the Mona Lisa was stolen from the Louvre in 1911, the empty space it left on the wall attracted more visitors than the painting had.<br>7.In the top 25 of most expensive paintings, 5 are by Picasso!";
+
+}
+
+function Artistic() {
+    document.getElementById("information").innerHTML = "From Madhubani to Kalamkari, 10 Indian Folk Art Forms That Have Survived Generations Passed down from one generation to another, Indian folk art is still alive in many parts of the country. Being culturally diverse and distinct, a variety of art forms have evolved over the years; some untouched by modernisation, some adapting to new paint colours and materials. Each depict religious epics or Gods and Goddesses mostly, but they’re all unique, admirable and inimitable in their own might. In the days of yore, they were made with natural dyes and colours made of soil, mud, leaves and charcoal, on canvas or cloth – giving it a sense of antiquity, vintage nostalgia.";
+}
+
+function Art() {
+    document.getElementById("information").innerHTML = "Nature in art can take many visual forms, from photorealism to abstraction. Art can mimic nature, by seeking to visually replicate objects as they actually appear in real life. But abstract paintings can also take their visual cue from actual forms in nature. This piece arose from the study, observation, and contemplation of natural phenomena and natural forms. When sitting at the easel, I used creative liberties to assign bright colors to detailed patterns that were inspired by what I had seen in my natural surroundings. So if you want to create a work of art based on the theme of nature, you've really got a whole planetful of ideas to work from!";
+}
+
+function Egypt() {
+    document.getElementById("information").innerHTML = "It is really old. The Giza pyramids were constructed some 4,500 years ago. This is the only remaining wonder of the ancient world.Giza pyramids are amazing man-made construction. They are so impressive that even today it is hard to know how they were built.  More than 2 million stone blocks were used. Pyramids of Giza were not an only amazing piece of engineering brilliance which was built for some spiritual purposes but over the time they have also kept the vanished world preserved. It took a huge number of skilled labors to build the pyramid.Well, the great pyramid is a super work of mathematics, geology and astronomical science. For example, The Great Pyramid sits right on top of the Earth’s geographical center."
+}
+
+function Wonder() {
+    document.getElementById("information").innerHTML = "All work and no play makes Jack a dull boy! This commonly used maxim is so true when it concerns education which demands the constant attention and dedication of knowledge-seekers. However, there will come a time when you find education slowly transforming into a dull form. This brings into focus the need for a fun element to When entertainment and education go hand in hand, students benefit a great deal.learn when you wish to motivate yourself to learn something new or to hone a skill that you possess as a gift."
+}
+
+function Universal() {
+    document.getElementById("information").innerHTML = " Universal Language....!!!!<br> There exist many essays on the appreciation of music as an art form and as an important part of human existence. What people don’t discuss nearly as much is how music affects everyone differently. Music can bring together conflicting feelings, tangling together emotions in ways people otherwise couldn’t imagine.And our experience with this music is determined by our past experiences. With other songs similar or very different from that one and experiences in our life outside of music entirely. Music can bring together conflicting feelings, tangling together emotions in ways people otherwise couldn’t imagine. Two people can sit side by side listening to the same song and have entirely different experiences. In this way, the song tangles together with your experiences and emotions to make them inseparable from each other.";
+}
+
+function Bollywood() {
+    document.getElementById("information").innerHTML = " The term “Bollywood,” though often inaccurately conflated with Indian cinema as a whole, refers just to the Hindi-language industry in the city of Mumbai. There are several different regional film industries throughout the country, each in a different language; the most prominent ones are Tamil, Telugu, Bengali, and Kannada languages.  The regional cinemas share a variety of common tropes (music, dancing, fabulous costumes, high melodrama, et cetera, ad infinitum), with noticeable differences; in a general sense, the south cinemas, Telugu and Tamil in particular, are more floridly rowdy than the comparatively restrained Bollywood industry. The highest paid star in Asia after Jackie Chan is the Tamil-language star Rajinikanth, known as “Superstar Rajinikanth” is also famous for his iconic contribution to indian cinema."
+}

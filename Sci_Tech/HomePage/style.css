@@ -1,0 +1,165 @@
+/* Universal position for overflow of the contain */
+
+.position {
+    position: relative;
+}
+
+
+/* Comman container for arranging the blocks in the flex format */
+
+.container {
+    display: flex;
+}
+
+
+/* Transition for the heading */
+
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-500%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+/* Transition for the sub-heading */
+
+@keyframes slideInRight {
+    0% {
+        transform: translatey(2500%);
+    }
+    100% {
+        transform: translatey(0);
+    }
+}
+
+
+/* Class for the motive of the text */
+
+.motive {
+    color: yellow;
+    margin-top: 50px;
+    margin-left: 22%;
+    font-size: 50px;
+    float: center;
+}
+
+
+/* class for the heading of the image */
+
+.heading_position {
+    position: absolute;
+    margin-left: 322px;
+    text-align: center;
+    bottom: 500px;
+    font-size: 90px;
+    font-weight: 80%;
+    color: #FDD7E4;
+    animation: 3s ease-out slideInLeft;
+}
+
+
+/* class for the information of the topic */
+
+.paragraph_position {
+    position: absolute;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 35px;
+    color: white;
+    bottom: 50px;
+    font-weight: 40%;
+    animation: 3s ease-out slideInRight;
+}
+
+
+/* class for the text of the topic */
+
+.position_block_text {
+    float: right;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+/* class for the img  */
+
+.img {
+    float: left;
+    border-radius: 10%;
+    margin-right: 1%;
+    margin-top: 3vw;
+}
+
+
+/* class for the link button  */
+
+.link_text {
+    float: right;
+    margin-right: 130px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+/* here all the blogs are been made inside the container box and are  
+displayed in a flex property as like box1 and box2 . last box is standing different 
+due to alignment feature. numbering of boxes are done horizontally. */
+
+.box1 {
+    box-sizing: border-box;
+    border: none;
+    width: 55%;
+    text-align: center;
+    border-radius: 5%;
+    height: 370px;
+    background-color: rgb(243, 243, 93);
+    margin-left: 1vw;
+    padding: 1%;
+    margin-top: 7vw;
+}
+
+.box2 {
+    float: right;
+    box-sizing: border-box;
+    border: none;
+    width: 55%;
+    text-align: center;
+    border-radius: 5%;
+    height: 370px;
+    background-color: rgb(245, 132, 132);
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 1%;
+    margin-top: 7vw;
+}
+
+
+/* class for the multiverse box */
+
+.multiverse {
+    box-sizing: border-box;
+    border: none;
+    width: 55%;
+    text-align: center;
+    border-radius: 5%;
+    height: 395px;
+    background-color: cyan;
+    margin-left: 24vw;
+    padding: 1%;
+    margin-top: 7vw;
+}
+
+
+/* class for the multiverse link button */
+
+.multiverse_link {
+    float: right;
+    margin-right: 142px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+}

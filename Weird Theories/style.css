@@ -1,0 +1,154 @@
+/* To bond page or hide scroll bar universally it has been hidden by x axis (horizontally) */
+body {
+    overflow-x: hidden;
+}
+
+/* To set the position or overflow the content */
+.img_float {
+    position: relative;
+}
+
+/* Transition to move the heading */
+@keyframes example {
+    0% {
+        left: 200px;
+        top: 0px;
+    }
+    50% {
+        left: 380px;
+        top: 0px;
+    }
+    100% {
+        left: 200px;
+        top: 0px;
+    }
+}
+
+/* Id for the animation  */
+#video {
+    float: center;
+    margin-top: 250px;
+    margin-left: 400px;
+    position: absolute;
+}
+
+/* In this section all the classe's and id's are made to set the  
+UI(User Interface) of the page*/
+
+.paragraph {
+    color: aliceblue;
+    margin-top: 50%;
+    margin-left: 150px;
+    margin-right: 450px;
+    text-align: left;
+    float: center;
+    font-size: 25px;
+}
+
+.warning {
+    float: right;
+    color: red;
+    margin-left: 500px;
+}
+
+.template {
+    float: left;
+    margin-top: 4%;
+    margin-left: 1.5%;
+}
+
+.info_img {
+    float: right;
+    margin-bottom: 10%;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-top: 150px;
+    border-radius: 5%;
+}
+
+.moon {
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.tree {
+    float: left;
+    margin-right: 1900px;
+    margin-top: 25px;
+}
+
+.bottom_right {
+    position: absolute;
+    float: right;
+    margin-top: 290px;
+    margin-left: 953px;
+}
+
+.Ghost {
+    float: right;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 1080px;
+    margin-right: 0%;
+}
+
+.bat1 {
+    float: center;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.bat2 {
+    float: center;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 340px;
+}
+
+.bat3 {
+    float: center;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 650px;
+}
+
+.bat4 {
+    float: right;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 890px;
+}
+
+.bottom_text {
+    float: center;
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 380px;
+    margin-bottom: 15px;
+}
+
+.top_text {
+    float: center;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 200px;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.mini_ghost_left {
+    float: center;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 180px;
+}
+
+.mini_ghost_right {
+    float: center;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 840px;
+}

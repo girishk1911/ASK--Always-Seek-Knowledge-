@@ -1,0 +1,100 @@
+<!-- Declartion of document type -->
+<!DOCTYPE html>
+
+<!-- Declaration of human understandable language -->
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- adding title of the page -->
+    <title> ASK (Always Seek Knowledge) ! </title>
+
+    <!--Adding img to the page title-->
+    <link rel='shortcut icon' href="logo.png">
+
+    <!--Importing an external javascript file -->
+    <script src="topics.js"></script>
+
+    <!-- Importing an external css files -->
+    <link rel='stylesheet' type="text/css" href="Entertainment.css">
+    <link rel='stylesheet' type="text/css" href="Nav_bar.css">
+
+    <!-- Styling to the ducument universally -->
+    <style>
+        body {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- creating a navigation bar to be sticky and adding element to the navigation
+    bar through the linkage of the server links to the element by creating a horizontal
+    list of the element-->
+    <div id="sticky">
+        <ul style="padding: 0.1px;">
+            <li><a href="../../ASK  commented code - Copy/Homepage/page.html">HOME</a></li>
+            <li><a href="../../ASK  commented code - Copy/Sci_Tech/HomePage/Sci_Tech.html">SCIENCE & TECH </a></li>
+            <li><a href="../../ASK  commented code - Copy/Artificial Intelligence/ArtificialIntelligence.html">ARTIFICIAL INTELLIGENCE (AI)</a></li>
+            <li><a href="../../ASK  commented code - Copy/Arts and Entertainment/Arts.html"> ARTS & ENTERTAINMENT</a></li>
+            <li><a href="../../ASK  commented code - Copy/Weird Theories/theories.html">WEIRD THEORIES</a>
+                <li>
+                    <li><a href="../../ASK  commented code - Copy/About us/About_us.html">ABOUT US</a></li>
+        </ul>
+    </div>
+
+    <!-- background animation  -->
+
+    <div>
+        <video autoplay muted loop width="100%" height="100%">
+            <source src="Artsvideo.mp4" type="video/mp4">
+            <source src="Artsvideo.mp4" type="video/webm">
+            <track label="English" kind="captions" srclang="en" src="resources/myvideo-en.vtt" default>
+            <track label="Deutsch" kind="captions" srclang="de" src="resources/myvideo-de.vtt">
+            <track label="Español" kind="captions" srclang="es" src="resources/myvideo-es.vtt">
+        </video>
+
+    </div>
+
+    <!-- heading of the page -->
+    <div class="position">
+        <h1 class="heading_position "><strong>Arts<br> & <br>Entertainment<br></strong></h1>
+    </div>
+
+    <!-- information text changing according to the users topic selection -->
+
+    <div class="position ">
+        <p id="information" class="para_info ">Arts and entertainment in India have had their course shaped by a synthesis of indigenous and foreign influences that have consequently shaped the course of the arts of the rest of Asia, since ancient times. Arts refer to paintings, architecture,
+            literature, music, dance, languages and cinema. In early India, most of the arts were derived Vedic influences. After the birth of contemporary Hinduism, Jainism, Buddhism, and Sikhism arts flourished under the patronage of kings and emperors.
+            Finally the British brought their own Gothic and Roman influences and fused it with the Indian style. They have a culture infusion in their art.</p>
+    </div>
+
+    <!-- topics reagrading the arts and entertainment which content will be change
+onclick calling javascript functions which are imported externally from javascript file  -->
+
+    <div class="position ">
+        <button onclick=Fact() class="Facts_position ">Facts</button>
+        <button onclick=Artistic() class="Artistic_position ">Artistic Era</button>
+        <button onclick=Art() class="Natureart_position ">Art In Nature</button>
+        <button onclick=Egypt() class="Egypt_position ">It's Egypt's Giza</button>
+        <button onclick=Wonder() class="Wonders_position ">Why No Entertainment...!!??? </button>
+        <button onclick=Universal() class="Language_position ">Universal Language..!! </button>
+        <button onclick=Bollywood() class="Cinema_position ">Only Bollywood is not indian cinema!!!<br> </button>
+    </div>
+
+    <!-- poem text  -->
+
+    <div class="position">
+        <h3 class="poem">COLORS OF ART 🎨<br><br> Life is a work of art,<br> something you paint or write with your heart,<br> taking care to make every part<br> a symphony of colors or words<br> that fly together like a flock of birds.<br><br> The sands of time<br> will
+            bring about inspiration<br> and the gifts of God you use without hesitation.<br> Life is a work of art,<br> a reflection of you,<br> and a journey that you must pursue.<br><br><br> ~ Kanishka katekhaye</h3>
+        <img src="texture.jpeg" width=100% height="685px" alt="image error"></img>
+    </div>
+
+</body>
+
+</html>

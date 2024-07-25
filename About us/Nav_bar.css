@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#sticky {
+    position: sticky;
+    top: 0px;
+}
+
+.logo_nav {
+    float: left;
+    width: 100px;
+    height: 70px;
+    margin-left: 15px;
+    opacity: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(41, 144, 248);
+}
+
+li {
+    float: left;
+    padding-left: 2.5vw;
+    height: 3.4vw;
+    margin-top: 0.7%;
+    font-size: 1vw;
+    padding-top: 0vw;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    height: 1.4vw;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+
+/* 
+.border {
+    border: 5px solid black;
+} */

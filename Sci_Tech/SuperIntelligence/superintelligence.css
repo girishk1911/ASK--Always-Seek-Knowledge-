@@ -1,0 +1,45 @@
+/* To bond page or hide scroll bar universally it has been hidden by y axis */
+body {
+    overflow-y: hidden;
+}
+
+/* class for the heading of the topic */
+.heading {
+    color: rgb(0, 197, 211);
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* class for the img */
+.superintelligence_img {
+    float: left;
+    margin-left: 20px;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+/* class for the information of the topic */
+.paragraph {
+    color: burlywood;
+    font-size: 29px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+/* class for button of the link */
+.button {
+    text-align: center;
+    margin-top: 200%;
+    font-size: 30px;
+    margin-left: 35%;
+    padding-top: 20%;
+    color: #091353;
+    text-decoration: none;
+}
+
+/* class for the bottom img of the page */
+.balance {
+    float: right;
+}

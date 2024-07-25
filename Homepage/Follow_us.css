@@ -1,0 +1,92 @@
+/* container is for follow block of page using flex property  */
+
+.container {
+    display: flex;
+}
+
+ /*  universal class for img in the container of  follow us  block */
+
+.follow_img {
+    float: center;
+    margin-top: 0.5vw;
+    padding-top: 1vw;
+    margin-bottom: 1vw;
+    border-radius: 8px 8px;
+}
+
+ /* universal class for font in the container of follow us block */
+
+.follow_font {
+    font-size: 200%;
+    font-weight: 10%;
+}
+/* class is for top heading i.e.why to follow us */
+
+.heading_followus {
+    text-align: center;
+    font-size: 250%;
+    color: gold;
+    padding-top: 5vw;
+}
+/* class for botton heading i.e. lets get connected */
+
+.heading_bottom {
+    text-align: center;
+    font-size: 250%;
+    color: rgb(241, 241, 21);
+    padding-top: 5vw;
+}
+
+ /* blocks for showing the webpage charterstices */
+
+ /*  block1 is for firest content   */
+
+.position_block1 {
+    box-sizing: border-box;
+    border: 0.3vw solid black;
+    width: 15%;
+    text-align: center;
+    border-radius: 5%;
+    height: 300%;
+    background-color: white;
+    margin-left: 16vw;
+    padding: 1%;
+    box-shadow: 0px 0px 15px white;
+    margin-top: 3vw;
+    margin-bottom: 8vw;
+}
+/* block2 is for second content */
+
+.position_block2 {
+    float: right;
+    box-sizing: border-box;
+    border: 0.3vw solid black;
+    width: 15%;
+    text-align: center;
+    border-radius: 5%;
+    height: 180%;
+    background-color: white;
+    margin-left: 11vw;
+    padding: 1%;
+    box-shadow: 0px 0px 15px white;
+    margin-top: 3vw;
+    margin-bottom: 8vw;
+}
+/* block3 is for thired content */
+
+.position_block3 {
+    float: right;
+    box-sizing: border-box;
+    border: 0.3vw solid black;
+    width: 15%;
+    text-align: center;
+    border-radius: 5%;
+    height: 180%;
+    background-color: white;
+    margin-left: 11vw;
+    padding: 1%;
+    box-shadow: 0px 0px 15px white;
+    margin-top: 3vw;
+    margin-bottom: 8vw;
+
+}

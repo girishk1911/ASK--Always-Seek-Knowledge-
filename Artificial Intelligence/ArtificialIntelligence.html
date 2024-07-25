@@ -1,0 +1,105 @@
+<!-- Declartion of document type -->
+<!DOCTYPE html>
+
+<!-- Declaration of human understandable language -->
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- adding title of the page -->
+    <title> ASK (Always Seek Knowledge) ! </title>
+
+    <!--Adding img to the page title-->
+    <link rel='shortcut icon' href="Asklogo.png">
+
+    <!-- Importing an external css files  -->
+
+    <link rel='stylesheet' type="text/css" href="Nav_bar.css">
+    <link rel='stylesheet' type="text/css" href="main_style.css">
+    <style>
+        body {
+            background-color: black;
+        }
+    </style>
+
+
+
+    <!-- Importing an external javascript file -->
+    <script src="topics.js"></script>
+</head>
+
+<body>
+ <!-- creating a navigation bar to be sticky and adding element to the navigation
+    bar through the linkage of the server links to the element by creating a horizontal
+    list of the element-->
+    <div id="sticky">
+        <ul style="padding: 0.1px;">
+            <li><a href="../../ASK  commented code - Copy/Homepage/page.html">HOME</a></li>
+            <li><a href="../../ASK  commented code - Copy/Sci_Tech/HomePage/Sci_Tech.html">SCIENCE & TECH </a></li>
+            <li><a href="../../ASK  commented code - Copy/Artificial Intelligence/ArtificialIntelligence.html">ARTIFICIAL INTELLIGENCE (AI)</a></li>
+            <li><a href="../../ASK  commented code - Copy/Arts and Entertainment/Arts.html"> ARTS & ENTERTAINMENT</a></li>
+            <li><a href="../../ASK  commented code - Copy/Weird Theories/theories.html">WEIRD THEORIES</a>
+                <li>
+                    <li><a href="../../ASK  commented code - Copy/About us/About_us.html">ABOUT US</a></li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="split left">
+        <div>
+            <h2>This is the visual representation on</h2>
+            <p>Some text.</p>
+
+            <div class="AIvideo">
+                <video controls loop width="71%" heigh="500px">
+                        <source src="AI.mp4" type="video/mp4">
+                        <source src="AI.mp4" type="video/webm">
+                        <track label="English" kind="captions" srclang="en" src="resources/myvideo-en.vtt" default>
+                        <track label="Deutsch" kind="captions" srclang="de" src="resources/myvideo-de.vtt">
+                        <track label="Español" kind="captions" srclang="es" src="resources/myvideo-es.vtt">
+                    </video>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="split right">
+        <h1 class="top_heading">Is <span style="color:#35b6f7">Artificial intelligence </span>greater than human intelligence<span style="color:rgba(251, 14, 14, 0.884)">?</span></h1>
+        <h3 class="mini_heading">Click the below topic to read about!!</h3>
+        <div class="centered">
+            <button onclick=Machine() class="ML_button1"><img class="ML_img"src=" ML_button.png " alt="img error " width="100%"></img></button>
+        </div>
+        <div class="centered">
+            <button onclick=Data_Science() class="DS_button1"><img class="DS_img"src="DS_button.png " alt="img error " width="100%"></img></button>
+        </div>
+        <div class="centered">
+            <button onclick=Artificial() class="AI_button1"><img class="AI_img"src="AI_button.png " alt="img error " width="100%"></img></button>
+        </div>
+        <div class="heading">
+            <div class="centered">
+                <i><h1 id="information"> World is mine!!</h1></i>
+            </div>
+        </div>
+        <div class="para_info">
+            <div class="centered">
+                <p id="data"><span style="color: red;">Breaking News</span> :- AI is going to overtake the world by 2040.</p>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>

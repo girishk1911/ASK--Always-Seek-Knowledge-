@@ -1,0 +1,38 @@
+/* class for logo of coreLIS */
+
+.logo {
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+
+/* class for vision of coreLIS */
+
+.vision {
+    font-size: 33.5px;
+    text-align: center;
+    margin-top: 90px;
+    transition: 5s ease-out;
+}
+
+
+/* class for motive of coreLIS */
+
+.motive {
+    font-weight: 30px;
+    font-size: 46px;
+    text-align: left;
+    margin-top: 120px;
+    margin-left: 50px;
+    transition: 5s ease-in;
+    margin-bottom: 150px;
+}
+
+
+/* class for img of motive of coreLIS */
+
+.motive_img {
+    margin-top: 120px;
+    float: right;
+    margin-bottom: 150px;
+}

@@ -1,0 +1,124 @@
+.split {
+    height: 90%;
+    position: fixed;
+    top: 4.2vw;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+.left {
+    left: 0.1%;
+    width: 35%;
+    overflow-y: hidden;
+    border: 5px double white;
+    background-color: black;
+}
+
+.right {
+    right: 0.1%;
+    width: 65%;
+    overflow-x: hidden;
+    border: 5px double white;
+    background-color: black;
+}
+
+.centered {
+    position: absolute;
+    top: 0%;
+}
+
+.AIvideo {
+    border-radius: 50%;
+    margin-top: 0%;
+    margin-bottom: 15%;
+    margin-left: 19%;
+}
+
+.AI_button1 {
+    box-decoration-break: none;
+    background-color: none;
+    width: 60%;
+    height: 150px;
+    padding: 0%;
+    border: none;
+    border-color: none;
+    border-radius: 10%;
+    margin-left: 20%;
+    margin-top: 85%;
+}
+
+.AI_img {
+    border-radius: 10%;
+}
+
+.ML_button1 {
+    box-decoration-break: none;
+    background-color: none;
+    width: 60%;
+    height: 150px;
+    padding: 0%;
+    border: none;
+    border-color: none;
+    border-radius: 10%;
+    margin-left: 124%;
+    margin-top: 85%;
+}
+
+.ML_img {
+    border-radius: 10%;
+}
+
+.DS_button1 {
+    box-decoration-break: none;
+    background-color: none;
+    width: 60%;
+    height: 150px;
+    padding: 0%;
+    border: none;
+    border-color: none;
+    border-radius: 10%;
+    margin-left: 230%;
+    margin-top: 85%;
+}
+
+.DS_img {
+    border-radius: 10%;
+}
+
+.top_heading {
+    margin-top: 5%;
+    width: 100%;
+    font-size: 250%;
+    margin-left: 0.5%;
+    color: white;
+}
+
+.mini_heading {
+    margin-top: 6%;
+    width: 100%;
+    font-size: 150%;
+    margin-left: 2%;
+    color: yellow;
+}
+
+.heading {
+    position: absolute;
+    text-align: center;
+    margin-top: 35%;
+    margin-left: 39%;
+    width: 100%;
+    color: white;
+}
+
+.para_info {
+    position: absolute;
+    padding: 0.1%;
+    padding-bottom: 4%;
+    font-size: 166%;
+    text-align: left;
+    margin-top: 43%;
+    margin-left: 1.5%;
+    margin-bottom: 4%;
+    width: 98%;
+    color: white;
+}

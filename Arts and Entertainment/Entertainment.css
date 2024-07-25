@@ -1,0 +1,154 @@
+/* universal class for overflowing the position of content */
+
+.position {
+    position: relative;
+    
+}
+
+/* hover to change the colour of the  heading arts and entertainment. */
+
+ :hover {
+    color: #9AFEFF;
+}
+
+/* class for logo on navigation bar*/
+
+.logo_nav {
+    float: left;
+    width: 100px;
+    height: 70px;
+    margin-left: 15px;
+    opacity: 100%;
+}
+
+/* class for the position of heading arts and entertainment */
+
+.heading_position {
+    position: absolute;
+    text-align: center;
+    bottom: 612px;
+    left: 540px;
+    font-size: 70px;
+    font-weight: 50%;
+    color: #FDD7E4;
+}
+
+/* class for paragarph changing text on the right bottom of the page */
+
+.para_info {
+    position: absolute;
+    bottom: 200px;
+    left: 940px;
+    font-size: 22px;
+    font-weight: 20%;
+    color: black;
+    background-color: #D6EDFF;
+    margin-right: 2%;
+    border: 4px solid #1100FFE0;
+    padding: 1px;
+}
+
+/* position of topics  prensted on left bottom corner of the page 
+which will be changing the content and colour by calling javascript function
+from the external file of javascript */
+
+.Artistic_position {
+    position: absolute;
+    background-color: transparent;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: orangered;
+    font-size: 46px;
+    border: none;
+    cursor: pointer;
+    bottom: 440px;
+}
+
+.Facts_position {
+    position: absolute;
+    background-color: transparent;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: red;
+    font-size: 46px;
+    border: none;
+    cursor: pointer;
+    bottom: 500px;
+}
+
+.Wonders_position {
+    position: absolute;
+    background-color: transparent;
+    left: 20.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: blue;
+    font-size: 46px;
+    border: none;
+    cursor: pointer;
+    bottom: 200px;
+}
+
+.Egypt_position {
+    position: absolute;
+    background-color: transparent;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: rgb(53, 116, 53);
+    font-size: 46px;
+    border: none;
+    cursor: pointer;
+    bottom: 320px;
+}
+
+.Language_position {
+    position: absolute;
+    background-color: transparent;
+    left: 16%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: rgb(125, 93, 148);
+    font-size: 46px;
+    border: none;
+    cursor: pointer;
+    bottom: 260px;
+}
+
+.Cinema_position {
+    position: absolute;
+    background-color: transparent;
+    left: 26.1%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: violet;
+    font-size: 46px;
+    border: none;
+    cursor: pointer;
+    bottom: 140px;
+}
+
+.Natureart_position {
+    position: absolute;
+    background-color: transparent;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: yellow;
+    font-size: 46px;
+    border: none;
+    cursor: pointer;
+    bottom: 380px;
+}
+
+/* class  for poem font and color  */
+
+.poem {
+    position: absolute;
+    margin-left: 15px;
+    font-size: 34px;
+    font-weight: 30%;
+    color: black;
+}

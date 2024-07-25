@@ -1,0 +1,62 @@
+/* All the code in this file are been done specifically to the element 
+and tags of the list and the list items in respect to the html page */
+
+
+/* Universally adding layout to the page */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* id has been created to make the navigation bar stick
+to the the top of the page on scroll */
+
+#sticky {
+    position: sticky;
+    top: 0px;
+}
+
+
+/* adding properties to the ul(unordered list) tag. */
+
+ul {
+    position: sticky;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(41, 144, 248);
+}
+
+
+/* adding properties to the li(list-items) element of the ul tag. */
+
+li {
+    float: left;
+    padding-left: 2.5vw;
+    height: 3.4vw;
+    margin-top: 0.7%;
+    font-size: 1vw;
+    padding-top: 0vw;
+}
+
+
+/* adding properties to the anchor attribute of the ul tag. */
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    height: 1.4vw;
+}
+
+
+/* adding color to the anchor attribute on hover. */
+
+li a:hover {
+    background-color: black;
+}

@@ -1,0 +1,164 @@
+/*vw stands for view port */
+
+/*creating class for img layout*/
+
+* {
+    margin-top: 0vw;
+    margin-left: 0vw;
+}
+
+/* id for header of the page */
+#header {
+    background-color: rgb(3, 3, 3);
+    height: 10vw;
+    width: 100vw;
+    margin-top: 0vw;
+}
+
+/* class for image of the logo */
+.logo {
+    height: 9.8vw;
+    width: 14vw;
+    float: left;
+    margin-left: 0.5vw;
+}
+
+/* class for the image of the skull on header */
+.skull {
+    height: 10vw;
+    width: 11vw;
+    float: right;
+    margin-right: 2vw;
+    margin-top: 0vw;
+}
+
+/* class for A S K short heading */
+.shortform {
+    margin-top: 1vw;
+    float: right;
+    margin-right: 48vw;
+    margin-bottom: 0vw;
+    padding-bottom: 0vw;
+    width: 10vw;
+    height: 1vw;
+    font-size: 3.9vw;
+    font-weight: 1200;
+    color: white;
+}
+
+/* class for A S K (Always seek knowledge) long heading */
+.fullform {
+    padding-top: 0vw;
+    margin-top: 3.7vw;
+    margin-left: 4vw;
+    padding-top: 0vw;
+    text-align: right;
+    height: 0vw;
+    float: left;
+    font-size: 3vw;
+    font-style: italic;
+    font-weight: 100;
+    color: rgb(252, 221, 221);
+}
+
+/* class for proverb of the header */
+.proverb {
+    margin-top: 1.5vw;
+    float: right;
+    margin-right: 0vw;
+    margin-bottom: 0vw;
+    padding-bottom: 0vw;
+    width: 33vw;
+    height: 1vw;
+    font-size: 1.9vw;
+    font-weight: 500;
+    color: white;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    #header {
+        height: auto;
+        padding: 1vw;
+    }
+
+    .logo {
+        height: 15vw;
+        width: 25vw;
+        margin-left: 1vw;
+    }
+
+    .skull {
+        height: 15vw;
+        width: 20vw;
+        margin-right: 1vw;
+    }
+
+    .shortform {
+        font-size: 5vw;
+        margin-right: 25vw;
+    }
+
+    .fullform {
+        font-size: 4vw;
+        margin-left: 2vw;
+    }
+
+    .proverb {
+        font-size: 3vw;
+        width: 50vw;
+    }
+}
+
+@media (max-width: 768px) {
+    #header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 2vw;
+    }
+
+    .logo,
+    .skull {
+        height: 20vw;
+        width: 30vw;
+        margin: 1vw 0;
+    }
+
+    .shortform {
+        margin: 1vw 0;
+        font-size: 6vw;
+    }
+
+    .fullform {
+        margin: 1vw 0;
+        font-size: 5vw;
+    }
+
+    .proverb {
+        font-size: 4vw;
+        width: 90vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo,
+    .skull {
+        height: 25vw;
+        width: 35vw;
+    }
+
+    .shortform {
+        font-size: 8vw;
+    }
+
+    .fullform {
+        font-size: 6vw;
+    }
+
+    .proverb {
+        font-size: 5vw;
+        width: 90vw;
+    }
+}

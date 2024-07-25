@@ -1,0 +1,268 @@
+<!-- Declartion of document type -->
+<!DOCTYPE html>
+
+<!-- Declaration of human understandable language -->
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- adding title of the page -->
+    <title> ASK (Always Seek Knowledge) ! </title>
+
+    <!--Adding img to the page title-->
+    <link rel='shortcut icon' href="Asklogo.png">
+
+    <!-- Importing an external css files  -->
+    <link rel='stylesheet' type="text/css" href="Header.css">
+    <link rel='stylesheet' type="text/css" href="Nav_bar.css">
+    <link rel='stylesheet' type="text/css" href="box.css">
+    <link rel='stylesheet' type="text/css" href="Follow_us.css">
+    <link rel='stylesheet' type="text/css" href="Footer.css">
+
+    <!-- Importing an external javascript file -->
+    <script src="Animation.js"></script>
+
+    <!-- Styling to the ducument universally -->
+    <style>
+        body {
+            background-color: black;
+            overflow-x: hidden;
+        }
+    </style>
+
+</head>
+
+<!-- Importing universally javascript function to the file for animation -->
+
+<body onload=set_time()>
+
+    <!-- local container for the header of the HomePage -->
+    <header>
+        <div id='header'>
+            <img class="logo" src='../assets/Asklogo.png' alt='Website logo'>
+            <img class="skull" src='../assets/skull.png' alt='human skull'>
+            <div>
+                <!---header div with logo and website name with aim on right float -->
+                <h1 class="shortform"> A S K</h1>
+                <h1 class="fullform"> (Always Seek Knowledge)</h1>
+                <h class="proverb">"To acquire knowledge, one must study;<br> But to acquire wisdom, one must observe."
+                    </h2>
+            </div>
+        </div>
+    </header>
+
+    <!-- creating a navigation bar to be sticky and adding element to the navigation
+    bar through the linkage of the server links to the element by creating a horizontal
+    list of the element-->
+    <div id="sticky">
+        <ul style="padding: 0.1px;">
+            <li><a href="../../ASK  commented code - Copy/Homepage/page.html">HOME</a></li>
+            <li><a href="../../ASK  commented code - Copy/Sci_Tech/HomePage/Sci_Tech.html">SCIENCE & TECH </a></li>
+            <li><a href="../../ASK  commented code - Copy/Artificial Intelligence/ArtificialIntelligence.html">ARTIFICIAL INTELLIGENCE (AI)</a></li>
+            <li><a href="../../ASK  commented code - Copy/Arts and Entertainment/Arts.html"> ARTS & ENTERTAINMENT</a></li>
+            <li><a href="../../ASK  commented code - Copy/Weird Theories/theories.html">WEIRD THEORIES</a>
+                <li>
+                    <li><a href="../../ASK  commented code - Copy/About us/About_us.html">ABOUT US</a></li>
+        </ul>
+    </div>
+
+    <!-- A specific container has been made for the animation of the page through id through javascript
+        which will be changing the content of the page at specific time interval. -->
+    <div id="image-data">
+        <img src="../assets/Sci_tech.jpeg" alt="script img" width="100%" height="600px" id="data"></img>
+    </div>
+
+    <!-- Characteristics of the page in this section -->
+    <div class="heading_followus">
+        <h1><i>Why to follow us ?</i></h1>
+    </div>
+
+    <!-- Characteristics has been displayed in the form of flex box with the text and image. -->
+    <div class="container">
+        <div class="position_block1">
+            <!--for systematic-->
+            <img class="follow_img" src="../assets/systematic.png" width="45%" height="45%" alt="image error">
+            <h1 class="follow_font">Systematic and well-researched. </h1>
+        </div>
+        <div class="position_block2">
+            <!--for secure-->
+            <img class="follow_img" src="../assets/secure.png" width="50%" height="50%" alt="image error"><br><br>
+            <h1 class="follow_font">Secure and Genuine. </h1>
+        </div>
+        <div class="position_block3">
+            <!--for appoverd-->
+            <img class="follow_img" src="../assets/approved.png" width="50%" height="50%" alt="image error"><br><br>
+            <h1 class="follow_font">Apporved by Experts. </h1>
+        </div>
+    </div>
+
+
+    <!--block section -->
+
+    <!-- here all the block of the topic are created and the linkage of the page 
+    of respective page are provided through button. -->
+
+    <!-- A basic container has been created to arrange the content in the form 
+    of flex box. -->
+    <div class="container">
+        <div class="box1">
+            <img class="img" src="../assets/Blog_img1.jpg" width="90%" height="80%" alt="image error"></img>
+            <p class="font"><strong>What if we create Superintelligence ?<br><br></strong> Suppose you have a mini-robot that does everything on your instruction. What if your mini-robot starts to think like a human brain?
+                <br><br> That's Superintelligence...!!
+            </p><br><br><br>
+            <a href="http://127.0.0.1:5500/ASK%20%20commented%20code%20-%20Copy/Sci_Tech/HomePage/Sci_Tech.html" class="button">
+                Read more
+            </a>
+        </div>
+        <div class="box2">
+            <img class="img" src="../assets/Blog_img2.jpg" width="90%" height="180px" alt="image error"></img>
+            <p class="font"><strong>Where Machines are Smarter......Than Humans !??<br></strong> Artificial Intelligence (AI) is the ability of a computer program or a machine to think and learn. It is also a field of study which tries to make computers "smart". As machines
+                become increasingly capable, mental faculties once thought to require intelligence.
+            </p><br>
+            <a href="http://127.0.0.1:5500/ASK%20%20commented%20code%20-%20Copy/Artificial%20Intelligence/ArtificialIntelligence.html" class="button">
+                Read more
+            </a>
+        </div>
+        <div class="box3">
+            <img class="img" src="../assets/Blog_img3.jpg" width="90%" height="191px" alt="image error"></img>
+            <p class="font"><strong>BEAUTY OF MUSIC <br><br></strong> There is a difference between hating a song so much you want to turn off the radio and cry and hating a song that brings tears to your eyes but compels you to listen.
+            </p><br><br><br>
+            <a href="http://127.0.0.1:5500/ASK%20%20commented%20code%20-%20Copy/Arts%20and%20Entertainment/Arts.html" class="button">
+                Read more
+            </a>
+        </div>
+
+    </div>
+
+    <!-- another basic container for second row of flex box. -->
+    <div class="container">
+        <div class="box4">
+            <img class="img" src="../assets/Blog_img4.png" width="90%" height="200px" alt="image error"></img><br>
+            <p class="font">
+                <strong>What is a Cosmic Ghost ?<br></strong> Neutrinos are the ghosts of the universe. They pass through all matter and travel at near the speed of light. And some begin with a star's violent death. "The ghosts of the universe." They
+                pass through you, me, and, in fact, all matter. They travel at near the speed of light. They morph into different forms. And some begin with the violent death of a star.
+            </p><br>
+            <a href="http://127.0.0.1:5500/ASK%20%20commented%20code%20-%20Copy/Weird%20Theories/theories.html" class="button">
+                Read more
+            </a>
+        </div>
+        <div class="box5">
+            <img class="img" src="../assets/Blog_img5.jpg" alt="image error" width="90%" height="200px">
+            <p class="font"><strong>What Are Black Holes?<br></strong> A black hole is an astronomical object with a gravitational pull so strong that nothing, not even light, can escape it. A black hole’s “surface,” called its event horizon, defines the boundary where
+                the velocity needed to escape exceeds the speed of light, which is the speed limit of the cosmos. Matter and radiation fall in, but they can’t get out.
+
+            </p><br><br>
+            <a href="http://127.0.0.1:5500/ASK%20%20commented%20code%20-%20Copy/Sci_Tech/HomePage/Sci_Tech.html" class="button">
+                Read more
+            </a>
+        </div>
+        <div class="box6">
+            <h4>Warning: This content might be 18+.</h4>
+            <img class="img" src="../assets/Blog_img6.jpg" alt="image error" width="90%" height="200px">
+            <p class="font"><strong>What is Sex Education ?<br></strong> Sex education, also known as sexual knowledge, is the instruction of issues relating to human sexuality, including emotional relations and responsibilities, human sexual anatomy, sexual activity,
+                sexual reproduction, age of consent, reproductive health, reproductive rights, sexual health, safe sex and birth control.
+
+            </p><br><br>
+            <a href="https://www.goodtherapy.org/blog/psychpedia/sex-education" class="button">
+                Read more
+            </a>
+
+        </div>
+    </div>
+
+    <!-- another basic container for third row of flex box. -->
+    <div class="container">
+        <div class="box7">
+            <img class="img" src="../assets/Blog_img7.jpg" alt="image error" width="90%" height="200px">
+            <p class="font"><strong> THE MOVIE GUY<br><br></strong> Sharing Excitement. Sharing Ideas. Sharing Community.
+                <br><br> Our Movie Club consists of getting together on a regular basis in order to share ideas and enjoy activities based on our common interest. The Movie Guy promotes and expects a non-judgmental and supportive attitude from participants.
+                We do share movies and series for FREE If you’re interested in joining or would like to learn more, please don’t hesitate to get in touch.
+
+            </p><br>
+            <a href="https://t.me/The_Movie_Guy" class="button7">
+                Get in Touch
+            </a>
+        </div>
+
+    </div><br><br><br><br><br><br><br><br><br>
+    <hr><br>
+    <br>
+
+    <!-- block for community -->
+    <!-- a content has been represented in the form of flex box. -->
+    <div class="heading_bottom">
+        <h1><em>Let's get Conneted!</em></h1>
+    </div><br>
+    <div class="container">
+        <div class="position_block1">
+            <!--join us-->
+            <img class="follow_img" src="../assets/join.png" width="80%" height="150px" alt="image error"><br><br>
+            <h1 class="follow_font"> Join us </h1><br>
+        </div>
+        <div class="position_block2">
+            <!--follow us-->
+            <img class="follow_img" src="../assets/follow.png" width="100%" height="150px" alt="image error"><br><br>
+            <h1 class="follow_font"> Follow us </h1><br>
+        </div>
+        <div class="position_block3">
+            <!--together us -->
+            <img class="follow_img" src="../assets/together.jpg" width="80%" height="110px" alt="image error">
+            <h1 class="follow_font">Let us Develop together.</h1>
+        </div>
+    </div>
+
+    <!-- feedback form section -->
+    <h1 class="heading">What do you say ?</h1>
+    <div style="color: white;margin-left: 0%; text-align: center; margin-top: 10px;">
+        <h1>Click on the below button to give your valuable review.</h1>
+        <h1 style="font-size: 50px; margin-top: 5%;"><a href="https://docs.google.com/forms/d/e/1FAIpQLScnwNYRlaYj5EIGztv90BNchKI4WI-Tv_MLE2RXIeV_MqOe3g/viewform">Plz Push me!</a></h1><br>
+    </div>
+
+    <!-- this is the footer section of the page where the introductuon to the community social
+    media platform has been introduced. -->
+    <h1 class="footer_heading">CoreLIS</h1>
+    <h3 class="footer_motive">(Automated BtB System)</h3>
+
+    <!-- about-us heading at the footer -->
+    <div class=footer_position>
+        <h2 class="about_position">About Us</h2><br>
+        <h4 class="about_text_position">To create a active <br>platform for<br> the people with <br>various<br> inquisitiveness.
+        </h4>
+    </div>
+
+    <!-- Follow us heading of the page  -->
+    <div class="footer_position">
+        <h2 class="contact_position">Follow Us</h2>
+
+    </div>
+
+    <!-- Connectivity to the community through different social media platform. -->
+    <div class="footer_position">
+        <img src="../assets/Gmail.png" class="gmail_position" width="50px" height="30px" alt="image error"></img>
+        <a href="corelis98@gmail.com" class="gmail_text_position">corelis98@gmail.com</a>
+    </div>
+    <div class="footer_position">
+        <img src="../assets/Twitter.png" class="twitter_position" width="50px" height="35px" alt="image error"></img>
+        <a href="https://twitter.com/lis_core" class="twitter_text_position">@lis_core</a>
+    </div>
+
+    <div class="footer_position">
+        <img src="../assets/Instagram.png" class="insta_position" width="50px" height="60px" alt="image error"></img>
+        <a href="https://instagram.com/corelis_98?utm_medium=copy_link" class="insta_text_position">corelis_98</a>
+    </div>
+
+    <div class="footer_position">
+        <img src="../assets/Whatsapp.png" class="whatsapp_position" width="50px" height="40px" alt="image error"></img>
+        <h1 class="whatsapp_text_position">+91-8180098561</h1>
+    </div>
+
+
+
+
+</body>
+
+</html>
